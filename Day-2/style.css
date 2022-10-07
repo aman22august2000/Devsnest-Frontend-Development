@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 16px;
+}
+
+.container > div > h2 {
+    text-align: center;
+}
+
+.intro {
+    margin: -16px;
+    padding: 16px;
+    background-color: #1a1717;
+    color: white;
+    text-align: center;
+}
+
+.intro img {
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+}
+
+.social-media img{
+    height: 20px;
+    width: 20px;
+    border-radius: 0px;
+}
+
+.social-media a {
+    text-decoration: none;
+    margin: auto 16px;
+}
+
+table {
+    width: 100%;
+}
+table,
+tr,
+td {
+    border: 1.5px solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+
+}
+
+p {
+    font-size: 1.5rem;
+}
